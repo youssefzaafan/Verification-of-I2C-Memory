@@ -43,21 +43,19 @@ Write and Read transactions flow as follows:
 i2c_memory_uvm_project/
 ├── rtl/                    # DUT files (I2C memory)
 ├── tb/                     # UVM testbench files
-│   ├── transaction.sv
-│   ├── driver.sv
-│   ├── monitor.sv
-│   ├── agent.sv
-│   ├── scoreboard.sv
-│   ├── env.sv
-│   ├── test.sv
-│   └── sequences/
-│       ├── base_sequence.sv
-│       ├── write_data_sequence.sv
-│       ├── read_data_sequence.sv
-│       └── reset_dut_sequence.sv
-├── run/                    # Simulation scripts and logs
-├── README.md
-└── Makefile / sim.tcl      # Compilation and run scripts
+   ├── transaction.sv
+   ├── driver.sv
+   ├── monitor.sv
+   ├── agent.sv
+   ├── scoreboard.sv
+   ├── env.sv
+   ├── test.sv
+   └── sequences/
+       ├── base_sequence.sv
+       ├── write_data_sequence.sv
+       ├── read_data_sequence.sv
+       └── reset_dut_sequence.sv
+
 ```
 
 ## 🚀 How to Run
