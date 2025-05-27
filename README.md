@@ -67,7 +67,7 @@ i2c_memory_uvm_project/
 - **Language**: SystemVerilog
 - **Methodology**: UVM (Universal Verification Methodology)
 - **Simulator**: Adlec Riviera Pro 2023.04
-- **Target Design**: I2c Memory with clocked output
+- **Target Design**: I2C Memory with clocked output
 
 ---
 ## 🚀 How to Run
